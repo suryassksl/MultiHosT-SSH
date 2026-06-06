@@ -1,0 +1,45 @@
+# Build artifacts
+build/
+dist/
+
+# PyInstaller spec files (we track only the canonical one)
+*.spec
+!MultiHostExecutor.spec
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+Thumbs.db
+.DS_Store
+nul
+
+# Logs
+*.log
+
+# Local app state (admin password hash, sessions, presets, host groups)
+.ssh_executor_admin.json
+.ssh_executor_session.json
+.ssh_executor_presets.json
+.ssh_executor_host_groups.json
+
+# Claude Code workspace
+.claude/
